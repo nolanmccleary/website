@@ -14,12 +14,6 @@ const BirthdayConfetti = dynamic(() => import('@/components/BirthdayConfetti'), 
 const NAVIGATION: NavigationItem[] = [
   {
     type: 'link',
-    href: '/blog',
-    icon: faPenNib,
-    text: 'Blog',
-  },
-  {
-    type: 'link',
     href: '/projects',
     icon: faCode,
     text: 'Projects',
@@ -27,7 +21,7 @@ const NAVIGATION: NavigationItem[] = [
   {
     type: 'link',
     external: true,
-    href: 'https://github.com/akrantz01',
+    href: 'https://github.com/ncm88',
     icon: faGithub,
     text: 'GitHub',
   },
