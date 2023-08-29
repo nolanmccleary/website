@@ -5,11 +5,8 @@ import dynamic from 'next/dynamic';
 
 import Animate from '@/components/Animate';
 import Button from '@/components/Button';
-import Descriptor from '@/components/Descriptor';
 import Layout from '@/components/Layout';
 import { NavigationItem } from '@/types';
-
-const BirthdayConfetti = dynamic(() => import('@/components/BirthdayConfetti'), { ssr: false });
 
 const NAVIGATION: NavigationItem[] = [
   {
@@ -29,13 +26,12 @@ const NAVIGATION: NavigationItem[] = [
 
 const Home: NextPage = () => {
   const today = new Date();
-  const birthday = new Date(2001, 11, 15); // December 15, 2001
+  const birthday = new Date(2002, 8, 8); // December 15, 2001
   const isBirthday = today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
   const age = Math.floor((today.getTime() - birthday.getTime()) / 1000 / 60 / 60 / 24 / 365);
 
   return (
     <Layout>
-      {isBirthday && <BirthdayConfetti />}
       <div className="min-h-screen flex items-center justify-center py-12">
         <div className="max-w-md sm:max-w-lg md:sm:max-w-2xl lg:sm:max-w-3xl w-full space-y-8 text-center">
           <Animate
@@ -43,8 +39,7 @@ const Home: NextPage = () => {
             animation={{ opacity: [0, 1], scale: [0.75, 1] }}
             className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold"
           >
-            Hey <span className="inline-block origin-70 hover:(animate-wave)">👋</span> I&apos;m Alex,{' '}
-            <br className="hidden sm:block" />a <Descriptor />
+            Welcome to my website
           </Animate>
 
           <Animate
@@ -53,7 +48,8 @@ const Home: NextPage = () => {
             className="max-w-xs mt-4 md:mt-8 mx-auto text-base text-gray-400 dark:text-gray-300 sm:text-lg md:text-xl md:max-w-3xl"
             transition={{ delay: 0.5 }}
           >
-            I&apos;m a {age} year old software engineer & system administrator.
+            This site is an attempt to both showcase some of my work directly as well as provide a convenient way of accessing my latest CV, contact info, and project repos.
+            I hope you enjoy.
           </Animate>
 
           <div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full mt-8 sm:mt-4">

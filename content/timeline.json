@@ -3,13 +3,13 @@
     "type": "career",
     "date": "2023-05-01",
     "title": "Internship at General Dynamics",
-    "description": "Began a 4 month internship as a vetronics intern at General Dynamics in Ottawa, Ontario"
+    "description": "Began a 4 month internship in Ottawa Ontario as an embedded software intern at General Dynamics. During this time, I worked with the advanced vetronic systems (AVS) team on a consolidated firmware core intended for use within GD's smart displays, integrated fire control systems, and tactical networks"
   },
   {
     "type": "career",
     "date": "2022-05-04",
     "title": "Internship at Teck Resources Limited",
-    "description": "Began an 8 month internship as an embedded systems intern at Teck Resources Limited in Sparwood, BC"
+    "description": "Began an 8 month internship in Sparwood, BC as a mining systems intern at Teck Resources Limited. My primary project during this time was a voltage spike monitor and suppression system designed to protect the edge computers on Teck's haul truck fleet; my managers were nice enough to let me share my code after the term ended and it can be viewed through the link on my 'projects' page"
   },
   {
     "type": "school",

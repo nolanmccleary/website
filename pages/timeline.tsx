@@ -31,7 +31,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 };
 
 const Timeline = ({ timeline }: Props): JSX.Element => (
-  <Layout seo={{ title: 'Alex Krantz - Timeline' }}>
+  <Layout seo={{ title: 'Nolan McCleary - Timeline' }}>
     <div className="flex flex-grow min-h-screen pt-16 pb-12">
       <div className="flex-grow flex flex-col justify-center max-w-sm sm:max-w-4xl w-full mx-auto px-0 sm:px-16">
         <ul className="-mb-8" role="list">

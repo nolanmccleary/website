@@ -30,12 +30,6 @@ const menuItems: NavigationItem[] = [
   },
   {
     type: 'link',
-    icon: faPenNib,
-    text: 'Blog',
-    href: '/blog',
-  },
-  {
-    type: 'link',
     icon: faCode,
     text: 'Projects',
     href: '/projects',
@@ -51,19 +45,19 @@ const menuItems: NavigationItem[] = [
     type: 'link',
     icon: faGithub,
     text: 'GitHub',
-    href: 'https://github.com/akrantz01',
+    href: 'https://github.com/ncm88',
   },
   {
     type: 'link',
     icon: faLinkedin,
     text: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/akrantz01',
+    href: 'https://www.linkedin.com/in/nolan-mccleary-673516217/',
   },
   {
     type: 'link',
     icon: faFileLines,
     text: 'Resume',
-    href: 'https://krantz.to/resume',
+    href: 'https://github.com/ncm88/Resume',
   },
 ];
 

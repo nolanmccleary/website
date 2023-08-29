@@ -7,9 +7,9 @@ type SeoProps = Partial<ComponentProps<typeof NextSeo>>;
 export const useSeo = (props: SeoProps = {}): SeoProps => {
   const router = useRouter();
 
-  const title = 'Alex Krantz';
-  const description = "Hey 👋 I'm Alex, a quiet developer";
-  const url = `https://krantz.dev/${router.asPath}`;
+  const title = 'Nolan McCleary';
+  const description = "Welcome to my website";
+  const url = `https://nolan.mccleary.ca/${router.asPath}`;
 
   return {
     title,
@@ -19,14 +19,9 @@ export const useSeo = (props: SeoProps = {}): SeoProps => {
       title,
       description,
       url,
-      site_name: 'krantz.dev',
+      site_name: 'nolanmccleary.ca',
       type: 'website',
       // TODO: add banner image
-    },
-    twitter: {
-      cardType: 'summary_large_image',
-      handle: '@akrantz_01',
-      site: '@akrantz_01',
     },
     ...props,
   };
