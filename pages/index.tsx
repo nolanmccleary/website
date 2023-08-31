@@ -39,7 +39,7 @@ const Home: NextPage = () => {
             animation={{ opacity: [0, 1], scale: [0.75, 1] }}
             className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold"
           >
-            Welcome to my website
+            Howdy &#x1F920;
           </Animate>
 
           <Animate
