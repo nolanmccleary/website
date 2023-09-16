@@ -1,5 +1,5 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faPenNib } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faMailBulk, faMailForward, faPenNib } from '@fortawesome/free-solid-svg-icons';
 import type { NextPage } from 'next';
 import dynamic from 'next/dynamic';
 
@@ -21,6 +21,12 @@ const NAVIGATION: NavigationItem[] = [
     href: 'https://github.com/ncm88',
     icon: faGithub,
     text: 'GitHub',
+  },
+  {
+    type: 'link',
+    href: '/contact',
+    icon: faMailBulk,
+    text: 'Contact me',
   },
 ];
 
@@ -48,8 +54,8 @@ const Home: NextPage = () => {
             className="max-w-xs mt-4 md:mt-8 mx-auto text-base text-gray-400 dark:text-gray-300 sm:text-lg md:text-xl md:max-w-3xl"
             transition={{ delay: 0.5 }}
           >
-            This site is an attempt to both showcase some of my work directly as well as provide a convenient way of accessing my latest CV, contact info, and project repos.
-            I hope you enjoy.
+            This site is an attempt to both showcase some of my work directly as well as provide a convenient way of
+            accessing my latest CV, contact info, and project repos. I hope you enjoy.
           </Animate>
 
           <div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full mt-8 sm:mt-4">

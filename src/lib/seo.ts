@@ -8,7 +8,7 @@ export const useSeo = (props: SeoProps = {}): SeoProps => {
   const router = useRouter();
 
   const title = 'Nolan McCleary';
-  const description = "Welcome to my website";
+  const description = 'Welcome to my website';
   const url = `https://nolan.mccleary.ca/${router.asPath}`;
 
   return {

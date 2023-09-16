@@ -1,4 +1,4 @@
 # Personal Website
-This repository contains the source for my personal website.
+This repository contains the source code my personal website.
 
 The design is based on [NuroDev](https://nuro.dev)'s portfolio

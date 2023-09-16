@@ -15,15 +15,15 @@ export const colors: Record<string, Record<number, string>> = {
     900: '#0c0e10',
   },
   primary: {
-    50: '#e6fffa',  // Lightest Teal
+    50: '#e6fffa', // Lightest Teal
     100: '#b2f5ea',
     200: '#81e6d9',
     300: '#4dc8c2',
     400: '#30afb6',
-    500: '#199a9b',  // Mid Teal
+    500: '#199a9b', // Mid Teal
     600: '#0e7f86',
     700: '#0a6b70',
-    800: '#055657',  // Darker Teal
-    900: '#02403c',  // Darkest Teal
+    800: '#055657', // Darker Teal
+    900: '#02403c', // Darkest Teal
   },
 };
