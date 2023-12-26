@@ -14,14 +14,14 @@ const Contact = (props: Props): JSX.Element => {
   // Remove useState hook for formData since we'll use FormData API
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    console.log('howdy');
     e.preventDefault();
-
     // Create a new FormData object, passing in the form as the argument
     const formData = new FormData(e.currentTarget);
-
     try {
       const response = await fetch('/api/sendMail', {
         method: 'POST',
+
         // The headers may be omitted, as the fetch API sets the correct header for FormData
         body: formData, // Send the FormData object directly
       });
@@ -45,7 +45,7 @@ const Contact = (props: Props): JSX.Element => {
             <div className="bg-gray-900 bg-opacity-75 border border-gray-500 rounded-lg transition ease-in-out duration-300 p-6">
               <div className="flex flex-col items-center justify-center w-full">
                 <h1 className="text-gray-300 text-lg font-bold mb-4">Contact Me</h1>
-                <form className="w-full">
+                <form className="w-full" onSubmit={handleSubmit}>
                   <div className="flex flex-col space-y-4">
                     <div className="flex flex-col space-y-2">
                       <label htmlFor="name" className="text-sm text-gray-400">
