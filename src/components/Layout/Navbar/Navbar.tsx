@@ -7,6 +7,7 @@ import {
   faDesktop,
   faFileLines,
   faHouse,
+  faMailBulk,
   faMoon,
   faPalette,
   faPenNib,
@@ -57,7 +58,14 @@ const menuItems: NavigationItem[] = [
     type: 'link',
     icon: faFileLines,
     text: 'Resume',
-    href: 'https://github.com/ncm88/Resume',
+    href: '/resume',
+  },
+  { type: 'divider' },
+  {
+    type: 'link',
+    icon: faMailBulk,
+    text: 'Message me',
+    href: '/contact',
   },
 ];
 

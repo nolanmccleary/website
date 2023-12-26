@@ -1,5 +1,5 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faMailBulk, faMailForward, faPenNib } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faFileAlt, faMailBulk, faMailForward, faPenNib } from '@fortawesome/free-solid-svg-icons';
 import type { NextPage } from 'next';
 import dynamic from 'next/dynamic';
 
@@ -24,17 +24,19 @@ const NAVIGATION: NavigationItem[] = [
   },
   {
     type: 'link',
+    href: '/resume ',
+    icon: faFileAlt,
+    text: 'Resume',
+  },
+  {
+    type: 'link',
     href: '/contact',
     icon: faMailBulk,
-    text: 'Contact me',
+    text: 'Message me',
   },
 ];
 
 const Home: NextPage = () => {
-  const today = new Date();
-  const birthday = new Date(2002, 8, 8); // December 15, 2001
-  const isBirthday = today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
-  const age = Math.floor((today.getTime() - birthday.getTime()) / 1000 / 60 / 60 / 24 / 365);
 
   return (
     <Layout>
