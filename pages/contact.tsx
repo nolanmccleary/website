@@ -11,23 +11,24 @@ const actionClasses =
   'relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-900 hover:bg-gray-800 text-gray-400 hover:text-gray-300 border border-gray-500 rounded-lg text-sm font-medium default-transition default-focus';
 
 const Contact = (props: Props): JSX.Element => {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  // Remove useState hook for formData since we'll use FormData API
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    // Create a new FormData object, passing in the form as the argument
+    const formData = new FormData(e.currentTarget);
 
     try {
       const response = await fetch('/api/sendMail', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ data: formData }),
+        // The headers may be omitted, as the fetch API sets the correct header for FormData
+        body: formData, // Send the FormData object directly
       });
 
       const data = await response.json();
       if (data.success) {
         console.log('Email sent successfully!');
-        // You can add any other actions like resetting form or showing a success message
       } else {
         console.log('Failed to send email');
       }
@@ -35,6 +36,7 @@ const Contact = (props: Props): JSX.Element => {
       console.error('There was an error sending the email', error);
     }
   };
+
   return (
     <Layout>
       <div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
