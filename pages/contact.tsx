@@ -23,7 +23,7 @@ const Contact = () => {
 
       if (data.success) {
         setSubmissionSuccess(true);
-        setSubmissionMessage(data.message || 'Your message has been sent successfully!');
+        setSubmissionMessage(data.message);
       } else {
         setSubmissionSuccess(false);
         setSubmissionMessage('Failed to reach server. Please try again.');
@@ -31,7 +31,6 @@ const Contact = () => {
     } catch (error) {
       setIsSubmitted(true);
       setSubmissionSuccess(false);
-      console.error('There was an error sending the email:', error);
       setSubmissionMessage('Internal server error. Please try again.');
     }
   };
