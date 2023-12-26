@@ -58,7 +58,7 @@ const menuItems: NavigationItem[] = [
     type: 'link',
     icon: faFileLines,
     text: 'Resume',
-    href: '/resume',
+    href: '/files/mccleary_resume1.pdf',
   },
   { type: 'divider' },
   {

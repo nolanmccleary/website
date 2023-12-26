@@ -15,9 +15,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     // If validation passes, send the email (using a service like SendGrid, Nodemailer, etc.)
     // For now, we'll simulate successful email sending
 
-    res.status(200).json({ success: true, message: 'Email sent successfully.' });
+    res.status(200).json({ success: true, message: 'Message sent successfully.' });
   } catch (error) {
     console.error('Server error:', error);
     res.status(500).json({ success: false, error: 'Internal Server Error' });
   }
 }
+ç

@@ -1,7 +1,6 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faCode, faFileAlt, faMailBulk, faMailForward, faPenNib } from '@fortawesome/free-solid-svg-icons';
 import type { NextPage } from 'next';
-import dynamic from 'next/dynamic';
 
 import Animate from '@/components/Animate';
 import Button from '@/components/Button';
@@ -24,7 +23,7 @@ const NAVIGATION: NavigationItem[] = [
   },
   {
     type: 'link',
-    href: '/resume ',
+    href: '/files/mccleary_resume1.pdf ',
     icon: faFileAlt,
     text: 'Resume',
   },
