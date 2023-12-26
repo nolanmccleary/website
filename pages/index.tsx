@@ -36,7 +36,6 @@ const NAVIGATION: NavigationItem[] = [
 ];
 
 const Home: NextPage = () => {
-
   return (
     <Layout>
       <div className="min-h-screen flex items-center justify-center py-12">

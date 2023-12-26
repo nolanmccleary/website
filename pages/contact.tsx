@@ -95,7 +95,10 @@ const Contact = () => {
                           required
                         ></textarea>
                       </div>
-                      <button type="submit" className="bg-white dark:bg-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-500 text-black dark:text-gray-300 p-3 rounded-md">
+                      <button
+                        type="submit"
+                        className="bg-white dark:bg-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-500 text-black dark:text-gray-300 p-3 rounded-md"
+                      >
                         Send
                       </button>
                     </div>
