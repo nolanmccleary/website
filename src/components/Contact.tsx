@@ -1,6 +1,3 @@
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { GetStaticProps } from 'next';
 import React, { useState } from 'react';
 
 import Animate from '@/components/Animate';

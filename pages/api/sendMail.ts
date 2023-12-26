@@ -3,8 +3,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-    console.log("ON");
-    if (req.method === 'POST') {
+  console.log('ON');
+  if (req.method === 'POST') {
     const { data } = req.body;
 
     // Here you would typically handle sending the email
