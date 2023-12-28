@@ -31,7 +31,7 @@ const Contact = () => {
     } catch (error) {
       setIsSubmitted(true);
       setSubmissionSuccess(false);
-      setSubmissionMessage('Internal server error. Please try again.');
+      setSubmissionMessage('Internal server error (Service not yet implemented)');
     }
   };
 
