@@ -276,3 +276,5 @@ dist
 next-env.d.ts
 /.next/
 /out/
+
+package-lock.json
