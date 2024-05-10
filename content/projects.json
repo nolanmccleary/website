@@ -1,4 +1,14 @@
 [
+  
+  {
+    "title": "Laser Projector",
+    "description": "MQTT proxy and paralellized sensor code for the purpose of transient event capture. ",
+    "icon": "\uD83D\uDCA1",
+    "links": {
+      "github": "https://github.com/ncm88/BART"
+    }
+  },
+  
   {
     "title": "Remote Voltage Monitor",
     "description": "MQTT proxy and paralellized sensor code for the purpose of transient event capture. ",
