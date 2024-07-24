@@ -1,5 +1,13 @@
 [
-  
+  {
+    "title": "RC4 Decryption Engine",
+    "description": "Parallelized RC4 encryption/decryption algorithm implementation on an Altera Cyclone V FPGA.",
+    "icon": "\uD83D\uDD12",
+    "links": {
+      "github": "https://github.com/ncm88/rc4_decryption_circuit"
+    }
+  },
+
   {
     "title": "Laser Projector",
     "description": "Laser projector system capable of drawing simple shapes and animations. ",
