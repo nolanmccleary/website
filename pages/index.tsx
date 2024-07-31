@@ -57,8 +57,8 @@ const Home: NextPage = () => {
             I'm an electrical engineering student at the University of British Columbia with a strong interest in
             baremetal and kernel-space code as well as hardware-accelerated solutions for said code when appropriate. On
             the side, I've been attempting to burn enough TypeScript syntax into my head for the purpose of hacking
-            together some semblance of a portfolio website, to which this serves as exhibit A. This website serves two
-            main goals:
+            together some semblance of a portfolio website, to which this serves as exhibit A. The website itself serves
+            two main goals:
             <br></br>
             <br></br>
             1. Remind myself why I should probably stick to low-level programming<br></br>
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
             2000-5000 word .README file, a necessity in this age of instant gratification.
             <br></br>
             <br></br>
-            The first goal has been achived while the second is still in progress. Anyways enjoy the projects.
+            The first goal has been achived while the second is still in progress. Anyways, enjoy the projects.
           </Animate>
 
           <div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full mt-8 sm:mt-4">
@@ -89,7 +89,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      *There isn't really any meaning to the cowboy emoji, I just thought it fit in nicely and who else has one on their
+      *There isn't really any meaning to the cowboy emoji, I just thought it fit in nicely and who else has one in their
       portfolio website?
     </Layout>
   );
