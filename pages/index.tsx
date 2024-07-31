@@ -29,9 +29,9 @@ const NAVIGATION: NavigationItem[] = [
   },
   {
     type: 'link',
-    href: '/contact',
+    href: '/timeline',
     icon: faMailBulk,
-    text: 'Message me',
+    text: 'Timeline',
   },
 ];
 
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
             animation={{ opacity: [0, 1], scale: [0.75, 1] }}
             className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold"
           >
-            Howdy &#x1F920;
+            Welcome to my portfolio! &#x1F920;
           </Animate>
 
           <Animate
@@ -54,8 +54,23 @@ const Home: NextPage = () => {
             className="max-w-xs mt-4 md:mt-8 mx-auto text-base text-gray-400 dark:text-gray-300 sm:text-lg md:text-xl md:max-w-3xl"
             transition={{ delay: 0.5 }}
           >
-            This site is an attempt to both showcase some of my work directly as well as provide a convenient way of
-            accessing my latest CV, contact info, and project repos. I hope you enjoy.
+            I'm an electrical engineering student at the University of British Columbia with a strong interest in baremetal and kernel-space code as well
+            as hardware-accelerated solutions for said code when appropriate. On the side, I've been attempting to burn enough TypeScript syntax into my head for the purpose
+            of hacking together some semblance of a portfolio website, to which this serves as exhibit A.
+            
+            This website serves two main goals:
+            <br></br>
+            <br></br>
+
+            
+            1. Remind myself why I should probably stick to low-level programming<br></br>
+            <br></br>2. Deliver project overviews in a way that is more dopaminergically pleasing to the viewer than a 2000-5000 word .README file, a necessity in this age of instant gratification.
+
+            <br></br>
+            <br></br>
+            
+            The first goal has been achived while the second is still in progress. 
+            Anyways enjoy the projects.
           </Animate>
 
           <div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full mt-8 sm:mt-4">
@@ -76,8 +91,11 @@ const Home: NextPage = () => {
               );
             })}
           </div>
+
         </div>
       </div>
+
+      *There isn't really any meaning to the cowboy emoji, I just thought it fit in nicely and who else has one on their portfolio website?
     </Layout>
   );
 };

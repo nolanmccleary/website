@@ -2,25 +2,37 @@
   {
     "type": "career",
     "date": "2023-05-01",
-    "title": "Internship at General Dynamics",
-    "description": "Began a 4 month internship in Ottawa Ontario as an embedded software intern at General Dynamics."
+    "title": "Internship at General Dynamics - Ottawa, Ontario",
+    "description": "Joined General Dynamics as a Vetronics Software intern. While I was only there for four months, I learned a lot about SoC integration and bringup as well as the benefits and drawbacks to running code in an embedded linux environment."
   },
   {
     "type": "career",
     "date": "2022-05-04",
-    "title": "Internship at Teck Resources Limited",
-    "description": "Began an 8 month internship in Sparwood, BC as a mining systems intern at Teck Resources Limited."
+    "title": "Internship at Teck Resources Limited - Sparwood, BC",
+    "description": "When I wasn't mountain biking I was working on a high-speed transient detection system with Teck's Mining Systems team."
+  },
+  {
+    "type": "career",
+    "date": "2021-04-28",
+    "title": "Second fire season with BCWS - Fort Nelson, BC",
+    "description": "My second wildfire season and first one where things actually happened. During this time I learned two things: 1. Nothing makes one grateful for the modern workplace environment quite like being stuck in a smoky mosquito infested swamp for sixteen hours and 2. Helicopters and chainsaws are really cool."
   },
   {
     "type": "school",
     "date": "2020-09-06",
     "title": "Started University at UBC",
-    "description": "Studying Electrical Engineering at the University of British Columbia, Vancouver"
+    "description": "First year was remote so I didn't even know what the campus looked like until second year."
+  },
+  {
+    "type": "career",
+    "date": "2020-05-28",
+    "title": "First fire season with BCWS - Vanderhoof, BC",
+    "description": "Thought it would be cool to be a firefighter. Unfortunately the 2020 season in BC was lacking in fires so I mostly just ended up going for a lot of runs and driving around in the bush."
   },
   {
     "type": "school",
     "date": "2020-05-28",
-    "title": "Graduation",
-    "description": "Graduated High School"
+    "title": "Graduation; Vanderhoof, BC",
+    "description": "Won a $20 bet that my last name would get mispronounced when I got called up."
   }
 ]
