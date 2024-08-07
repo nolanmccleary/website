@@ -66,7 +66,7 @@ const Home: NextPage = () => {
             2000-5000 word .README file, a necessity in this age of instant gratification.
             <br></br>
             <br></br>
-            The first goal has been achived while the second is still in progress. Anyways, enjoy the projects.
+            The first goal has been achieved while the second is still in progress. Anyways, enjoy the projects.
           </Animate>
 
           <div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full mt-8 sm:mt-4">
