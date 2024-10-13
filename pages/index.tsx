@@ -17,7 +17,7 @@ const NAVIGATION: NavigationItem[] = [
   {
     type: 'link',
     external: true,
-    href: 'https://github.com/ncm88',
+    href: 'https://github.com/nolanmccleary',
     icon: faGithub,
     text: 'GitHub',
   },
