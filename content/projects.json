@@ -4,7 +4,7 @@
     "description": "Parallelized RC4 encryption/decryption algorithm implementation on an Altera Cyclone V FPGA.",
     "icon": "\uD83D\uDD12",
     "links": {
-      "github": "https://github.com/ncm88/rc4_decryption_circuit"
+      "github": "https://github.com/nolanmccleary/rc4_decryption_circuit"
     }
   },
 
@@ -13,7 +13,7 @@
     "description": "Laser projector system capable of drawing simple shapes and animations. ",
     "icon": "\uD83D\uDCA1",
     "links": {
-      "github": "https://github.com/ncm88/BART"
+      "github": "https://github.com/nolanmccleary/BART"
     }
   },
   
@@ -22,7 +22,7 @@
     "description": "MQTT proxy and paralellized sensor code for the purpose of transient event capture. ",
     "icon": "\u26A1️",
     "links": {
-      "github": "https://github.com/ncm88/Remote_Voltage_Monitor"
+      "github": "https://github.com/nolanmccleary/Remote_Voltage_Monitor"
     }
   }
 ]
