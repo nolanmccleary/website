@@ -38,7 +38,7 @@ const menuItems: NavigationItem[] = [
   {
     type: 'link',
     icon: faPenNib,
-    text: 'Other Stuff',
+    text: 'Writing',
     href: '/writing',
   },
   { type: 'divider' },

@@ -1,5 +1,4 @@
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faFileAlt, faMailBulk, faMailForward, faPenNib } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faPenNib } from '@fortawesome/free-solid-svg-icons';
 import type { NextPage } from 'next';
 
 import Animate from '@/components/Animate';
@@ -16,22 +15,9 @@ const NAVIGATION: NavigationItem[] = [
   },
   {
     type: 'link',
-    external: true,
-    href: 'https://github.com/nolanmccleary',
-    icon: faGithub,
-    text: 'GitHub',
-  },
-  {
-    type: 'link',
-    href: '/files/mccleary_resume1.pdf ',
-    icon: faFileAlt,
-    text: 'Resume',
-  },
-  {
-    type: 'link',
     href: '/writing',
     icon: faPenNib,
-    text: 'Other Stuff',
+    text: 'Writing',
   },
 ];
 
@@ -54,19 +40,10 @@ const Home: NextPage = () => {
             className="max-w-xs mt-4 md:mt-8 mx-auto text-base text-gray-400 dark:text-gray-300 sm:text-lg md:text-xl md:max-w-3xl"
             transition={{ delay: 0.5 }}
           >
-            I'm an electrical engineering student at the University of British Columbia with a strong interest in
-            baremetal and kernel-space code as well as hardware-accelerated solutions for said code when appropriate. On
-            the side, I've been attempting to burn enough TypeScript syntax into my head for the purpose of hacking
-            together some semblance of a portfolio website, to which this serves as exhibit A. The website itself serves
-            two main goals:
-            <br></br>
-            <br></br>
-            1. Remind myself why I should probably stick to low-level programming<br></br>
-            <br></br>2. Deliver project overviews in a way that is more dopaminergically pleasing to the viewer than a
-            2000-5000 word .README file, a necessity in this age of instant gratification.
-            <br></br>
-            <br></br>
-            The first goal has been achieved while the second is still in progress. Anyways, enjoy the projects.
+            I write a lot of code and also occasionally write about the code that I've written. Some of that stuff goes here. 
+            The reality of most personal projects is that they end up being a bit silly and as such should not be taken too seriously. 
+            In light of this, humour is occasionally used both for thematic coherence and as an assistive device for viewers with reduced attention spans.
+            The cowboy emoji represents strength, unity, and the pioneering spirit.
           </Animate>
 
           <div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full mt-8 sm:mt-4">
@@ -88,8 +65,8 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      *There isn't really any meaning to the cowboy emoji, I just thought it fit in nicely and who else has one in their
-      portfolio website?
+      *There isn't really any meaning to the cowboy emoji, I just thought it fit in nicely and who else has one on their
+      website?
     </Layout>
   );
 };
