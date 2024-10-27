@@ -3,7 +3,6 @@ import type { NextPage } from 'next';
 import Animate from '@/components/Animate';
 import Layout from '@/components/Layout';
 
-
 const writing: NextPage = () => {
   return (
     <Layout>
