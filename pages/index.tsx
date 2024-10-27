@@ -40,7 +40,8 @@ const Home: NextPage = () => {
             className="max-w-xs mt-4 md:mt-8 mx-auto text-base text-gray-400 dark:text-gray-300 sm:text-lg md:text-xl md:max-w-3xl"
             transition={{ delay: 0.5 }}
           >
-            I write a lot of code and also occasionally write about the code that I've written. Some of that stuff goes here. 
+            I write a lot of code and also occasionally write about the code that I've written or any other random thing that interests me. 
+            Some of that stuff goes here.
             The reality of most personal projects is that they end up being a bit silly and as such should not be taken too seriously. 
             In light of this, humour is occasionally used both for thematic coherence and as an assistive device for viewers with reduced attention spans.
             The cowboy emoji represents strength, unity, and the pioneering spirit.
