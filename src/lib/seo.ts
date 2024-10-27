@@ -1,5 +1,5 @@
-import { NextSeo } from 'next-seo';
 import { useRouter } from 'next/router';
+import { NextSeo } from 'next-seo';
 import { ComponentProps } from 'react';
 
 type SeoProps = Partial<ComponentProps<typeof NextSeo>>;

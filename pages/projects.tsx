@@ -42,11 +42,14 @@ const Projects = ({ projects }: Props): JSX.Element => (
 
                   <div className="inline-flex items-center justify-end space-x-2 w-full sm:w-auto mt-4 sm:mt-1">
                     {project.links.post && (
-                      <Link aria-label={`${project.title} blog post`} href={`/blog/${project.links.post}`} passHref>
-                        <a className={actionClasses}>
-                          <span className="sr-only">Blog post</span>
-                          <FontAwesomeIcon icon={faPenNib} />
-                        </a>
+                      <Link
+                        aria-label={`${project.title} blog post`}
+                        href={`/blog/${project.links.post}`}
+                        passHref
+                        className={actionClasses}
+                      >
+                        <span className="sr-only">Blog post</span>
+                        <FontAwesomeIcon icon={faPenNib} />
                       </Link>
                     )}
                     {project.links.homepage && (

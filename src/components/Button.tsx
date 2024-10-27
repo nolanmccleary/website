@@ -46,11 +46,9 @@ const Button = forwardRef<HTMLAnchorElement | HTMLButtonElement, Props>(
         );
       } else {
         return (
-          <Link ref={ref as ForwardedRef<HTMLAnchorElement>} href={href} passHref>
-            <a href={href} className={classes}>
-              {icon && <FontAwesomeIcon className={iconClasses} icon={icon} />}
-              {children}
-            </a>
+          <Link ref={ref as ForwardedRef<HTMLAnchorElement>} href={href} passHref className={classes}>
+            {icon && <FontAwesomeIcon className={iconClasses} icon={icon} />}
+            {children}
           </Link>
         );
       }

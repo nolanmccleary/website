@@ -33,10 +33,8 @@ export const MDX_COMPONENTS = {
 
     if (href && !isExternal(href)) {
       return (
-        <Link href={href} passHref>
-          <a className={style} {...props}>
-            {props.children}
-          </a>
+        <Link href={href} passHref className={style} {...props}>
+          {props.children}
         </Link>
       );
     } else {

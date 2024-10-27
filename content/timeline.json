@@ -1,6 +1,12 @@
 [
   {
     "type": "career",
+    "date": "2024-09-03",
+    "title": "Internship at Synopsys - 'Toronto', Ontario",
+    "description": "Transceiver firmware is really cool. Lots of baremetal FW/ASIC interplay and compiler optimization. Writing code that directly supports some of the DSP functionality is also extremely rewarding."
+  },
+  {
+    "type": "career",
     "date": "2023-05-01",
     "title": "Internship at General Dynamics - Ottawa, Ontario",
     "description": "Joined General Dynamics as a Vetronics Software intern. While I was only there for four months, I learned a lot about SoC integration and bringup as well as the benefits and drawbacks to running code in an embedded linux environment."
@@ -34,5 +40,11 @@
     "date": "2020-06-23",
     "title": "Graduation - Vanderhoof, BC",
     "description": "Won a $20 bet that my last name would get mispronounced as I got called up."
+  },
+  {
+    "type": "birthday",
+    "date": "2002-08-08",
+    "title": "Biological tape-out",
+    "description": "Error in /da/club (birfday.jsx:50): party failed to render"
   }
 ]

@@ -29,9 +29,9 @@ const NAVIGATION: NavigationItem[] = [
   },
   {
     type: 'link',
-    href: '/timeline',
-    icon: faMailBulk,
-    text: 'Timeline',
+    href: '/writing',
+    icon: faPenNib,
+    text: 'Other Stuff',
   },
 ];
 
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
             animation={{ opacity: [0, 1], scale: [0.75, 1] }}
             className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold"
           >
-            Welcome to my portfolio! &#x1F920;
+            Welcome to my website! &#x1F920;
           </Animate>
 
           <Animate
@@ -72,7 +72,6 @@ const Home: NextPage = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full mt-8 sm:mt-4">
             {NAVIGATION.map((link, index) => {
               if (link.type !== 'link') return null;
-
               return (
                 <Animate
                   key={index}

@@ -37,9 +37,9 @@ const menuItems: NavigationItem[] = [
   },
   {
     type: 'link',
-    icon: faClock,
-    text: 'Timeline',
-    href: '/timeline',
+    icon: faPenNib,
+    text: 'Other Stuff',
+    href: '/writing',
   },
   { type: 'divider' },
   {
@@ -59,6 +59,12 @@ const menuItems: NavigationItem[] = [
     icon: faFileLines,
     text: 'Resume',
     href: '/files/mccleary_resume1.pdf',
+  },
+  {
+    type: 'link',
+    icon: faClock,
+    text: 'Timeline',
+    href: '/timeline',
   },
   { type: 'divider' },
   {

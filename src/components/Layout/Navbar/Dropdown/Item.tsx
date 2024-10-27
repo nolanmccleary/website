@@ -66,11 +66,14 @@ const Item = forwardRef<HTMLAnchorElement | HTMLButtonElement | HTMLHRElement, P
           );
         } else {
           return (
-            <Link ref={ref as ForwardedRef<HTMLAnchorElement>} href={item.href} passHref>
-              <a className={styles(active, false)}>
-                <FontAwesomeIcon icon={item.icon} className="w-5 h-5 mr-3" aria-hidden="true" />
-                {item.text}
-              </a>
+            <Link
+              ref={ref as ForwardedRef<HTMLAnchorElement>}
+              href={item.href}
+              passHref
+              className={styles(active, false)}
+            >
+              <FontAwesomeIcon icon={item.icon} className="w-5 h-5 mr-3" aria-hidden="true" />
+              {item.text}
             </Link>
           );
         }
