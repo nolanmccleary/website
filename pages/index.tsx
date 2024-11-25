@@ -61,7 +61,7 @@ const Home: NextPage = () => {
             <br></br>
 
 
-            Anyways, here is me and this is my site. I like rambling and I like writing high-performance code (the coolest stuff I've done is closed source but I've been exploring a bit of low-level ML on my own recently so hopefully this changes soon). What is here is the culmination of many hours of banging around on a keyboard shared first and foremost for myself and secondly so that anyone who has gone this far to figure out who I am at least has something
+            Anyways, that is me and this is my site. I like rambling and I like writing high-performance code (the coolest stuff I've done is closed source but I've been exploring a bit of low-level ML on my own recently so hopefully this changes soon). What is here is the culmination of many hours of banging around on a keyboard shared first and foremost for myself and secondly so that anyone who has gone this far to figure out who I am at least has something
             funny || useful to show for their troubles.
             
             <br></br>
@@ -90,7 +90,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      *There isn't really any meaning to the cowboy emoji, I just though it fit in nicely and who else has one in their portfolio website?
+      *R13: unun tbgpun
     </Layout>
   );
 };
