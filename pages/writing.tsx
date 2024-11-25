@@ -13,7 +13,7 @@ const writing: NextPage = () => {
             animation={{ opacity: [0, 1], scale: [0.75, 1] }}
             className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold"
           >
-            Coming soon
+            Coming soon, you weren't supposed to click on that yet
           </Animate>
         </div>
       </div>
