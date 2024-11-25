@@ -46,7 +46,7 @@ const menuItems: NavigationItem[] = [
     type: 'link',
     icon: faGithub,
     text: 'GitHub',
-    href: 'https://github.com/ncm88',
+    href: 'https://github.com/nolanmccleary',
   },
   {
     type: 'link',
