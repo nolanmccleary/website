@@ -62,7 +62,7 @@ The ultimate expression that can be derived from this model is a rigorized (shou
 
 Anyways, this is the mental model that I personally use when writing and optimizing code. I don't know if it's good and I don't know if other people will find it useful but it works for me and in a weird abstract sense it's kind of the single most advanced thing I have ever created because in hindsight I kind of started working towards it when I was a kid. Writing it down was also a way to help me formalize my thinking because even though I spent years on the intuition I never really put it into words until now. The model doesn't have a name yet but I've considered a few options (Regression-Driven Development, Way of the Nolanator, FerdaSpec, etc) but haven't decided on anything yet. Part of me feels like it would be fun to investigate if this regression optimization model could be rigorously defined and used as an optimization strategy for machine-generated code but that seems hard and tedious so I prefer not to think about it too much as I'm already somewhat preoccupied at the moment.<br></br><br></br>
 
-So anyways, yeah, this is the philosophy that I spent way too much developing in order to help me make a fancy rock do cool shit better. I hope it helps you too.
+So anyways, yeah, this is the philosophy that I spent way too much time developing in order to help me make a fancy rock do cool shit better. I hope it helps you too.
 
 
 
