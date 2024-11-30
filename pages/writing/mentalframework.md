@@ -1,44 +1,9 @@
-import { faCode, faPenNib } from '@fortawesome/free-solid-svg-icons';
-import type { NextPage } from 'next';
-
-import Animate from '@/components/Animate';
-import Button from '@/components/Button';
-import Layout from '@/components/Layout';
-import { NavigationItem } from '@/types';
-
-const NAVIGATION: NavigationItem[] = [
-  {
-    type: 'link',
-    href: '/projects',
-    icon: faCode,
-    text: 'Projects',
-  },
-  {
-    type: 'link',
-    href: '/writing',
-    icon: faPenNib,
-    text: 'Writing',
-  },
-];
-
-const Framework: NextPage = () => {
-  return (
-    <Layout>
-      <div className="min-h-screen flex items-center justify-center py-12">
-        <div className="max-w-md sm:max-w-lg md:sm:max-w-2xl lg:sm:max-w-3xl w-full space-y-8 text-center">
-          <Animate
-            as="p"
-            animation={{ opacity: [0, 1], scale: [0.75, 1] }}
-            className="max-w-xs mt-4 md:mt-8 mx-auto text-base text-gray-400 dark:text-gray-300 sm:text-lg md:text-xl md:max-w-3xl"
-            transition={{ delay: 0.5 }}
-          >
-
-*The formatting is bad because I haven't figured out the best way for markdown injection on the site yet and the more I get done at my job the more work they give me. I'll make this look good at some point don't worry. I also recently got back into drawing so pictures (comics?) may be added in at some point as well<br></br><br></br>
+## Mental For Low-level Programming
 
 
-Anyone who has reached a sufficiently high level of mastery in something sooner or later comes to realize that arguably the single most important driver is having the right mental framework for processing information relating to that thing. In many cases, this mental framework is also the direct reward of mastering the thing. Programming is one such case. <br></br><br></br>
+Anyone who has reached a sufficiently high level of mastery in something sooner or later comes to realize that arguably the single most important driver is having the right mental framework for processing information related to that thing. In many cases, this mental framework is also the direct reward of mastering the thing. Programming is one such case. <br></br><br></br>
 
-For the record, I don't claim to be anywhere near a master in any way, shape, or form. However, I've been doing it for a while and have devoted a lot of my free time towards thinking about it. More importantly, I like to talk about it and it seems that very few people in my current area of interest do; therefore, seeing that this is my website and and it is very most not likely that anyone sees this, I will now give a short rant detailing everything I've been wanting to tell anyone who would care enough about this topic to listen. <br></br><br></br>
+For the record I don't claim to be anywhere near a master of this in any way, shape, or form, but I've been doing it for a while and have devoted a lot of my free time towards thinking about it. More importantly, I like to talk about it and it seems that very few people in my current area of interest do; therefore, seeing that this is my website and and it is very most not likely that anyone sees this, I will now give a short rant detailing everything I've been wanting to tell anyone who would care enough about this topic to listen. <br></br><br></br>
 
 I came into C from a fairly mathy Python background (I mean technically before Python I was dicking around on Scratch (specializing in MLG quickscope simul- I mean physics engines) and the idea of doing game dev was why I started doing the mathy stuff but let's forget about that) and while I'd definitely say it was an asset from an algorithmic point of view, I actually think it may have hurt me long-term because I ended up having some weird mental blocks when it came to thinking about what was actually going on under the hood. I'm writing this because it's what I wish someone would have told me when I was getting into this stuff, and I think it's broadly applicable to anyone else coming from a higher-level programming background. If you are untainted and come from a low-level background, I hope this helps you in some way as well.<br></br><br></br>
 
@@ -63,12 +28,3 @@ The ultimate expression that can be derived from this model is a rigorized (shou
 Anyways, this is the mental model that I personally use when writing and optimizing code. I don't know if it's good and I don't know if other people will find it useful but it works for me and in a weird abstract sense it's kind of the single most advanced thing I have ever created because in hindsight I kind of started working towards it when I was a kid. Writing it down was also a way to help me formalize my thinking because even though I spent years on the intuition I never really put it into words until now. The model doesn't have a name yet but I've considered a few options (Regression-Driven Development, Way of the Nolanator, FerdaSpec, etc) but haven't decided on anything yet. Part of me feels like it would be fun to investigate if this regression optimization model could be rigorously defined and used as an optimization strategy for machine-generated code but that seems hard and tedious so I prefer not to think about it too much as I'm already somewhat preoccupied at the moment.<br></br><br></br>
 
 So anyways, yeah, this is the philosophy that I spent way too much time developing in order to help me make a fancy rock do cool shit better. I hope it helps you too.
-
-          </Animate>          
-        </div>
-      </div>
-    </Layout>
-  );
-};
-
-export default Framework;

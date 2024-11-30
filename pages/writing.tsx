@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPenNib } from '@fortawesome/free-solid-svg-icons';
 import { GetStaticProps } from 'next';
 import Link from 'next/link';
 
@@ -33,8 +34,6 @@ const Writing = ({ writing }: Props): JSX.Element => (
                       <h1 className="text-gray-700 dark:text-white text-lg font-bold">{entry.title}</h1>
                     </div>
                   </div>
-
-                  <div className="inline-flex items-center justify-end space-x-2 w-full sm:w-auto mt-4 sm:mt-1">
                     {entry.links.post && (
                       <Link
                         aria-label={`${entry.title} blog post`}
@@ -42,10 +41,10 @@ const Writing = ({ writing }: Props): JSX.Element => (
                         passHref
                         className={actionClasses}
                       >
+                        <FontAwesomeIcon icon={faPenNib} />
                         <span className="sr-only">Read</span>
                       </Link>
                     )}
-                  </div>
                 </div>
               </li>
             </Animate>
