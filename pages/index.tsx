@@ -90,7 +90,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      *R7: Zahy Thrly pz aol zpunsl ilza ivvr P'cl lcly ylhk
+      *R12: sappmyz, etuf ftq nqp
     </Layout>
   );
 };

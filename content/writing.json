@@ -1,8 +1,20 @@
-[
-    {
-      "title": "Mental Framework for Low-Level Programming",
-      "links": {
-        "post": "MentalFramework"
-      }
+[ 
+  {
+    "title": "Gelsinger's Next Move",
+    "links": {
+      "post": "Gelsinger"
     }
-  ]
+  },
+  {
+    "title": "How to Toronto (Winter Edition)",
+    "links": {
+      "post": "HowToToronto"
+    }
+  },
+  {
+    "title": "Eliyan To Luna",
+    "links": {
+      "post": "Eliyan"
+    }
+  }
+]
