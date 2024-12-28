@@ -31,7 +31,7 @@ const Home: NextPage = () => {
             animation={{ opacity: [0, 1], scale: [0.75, 1] }}
             className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold"
           >
-            Congratulations! You have successfully stalked me! &#x1F920;
+            Congratulations! You Have Successfully Stalked Me! <br></br> &#x1F920;
           </Animate>
 
           <Animate
@@ -90,7 +90,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      *R12: sappmyz, etuf ftq nqp
+      *R2: Vjg eqydqa goqlk uvcau wr
     </Layout>
   );
 };

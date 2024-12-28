@@ -5,20 +5,6 @@ import Animate from '@/components/Animate';
 import Layout from '@/components/Layout';
 import { NavigationItem } from '@/types';
 
-const NAVIGATION: NavigationItem[] = [
-  {
-    type: 'link',
-    href: '/projects',
-    icon: faCode,
-    text: 'Projects',
-  },
-  {
-    type: 'link',
-    href: '/writing',
-    icon: faPenNib,
-    text: 'Writing',
-  },
-];
 
 const Framework: NextPage = () => {
   return (
