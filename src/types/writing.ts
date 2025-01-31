@@ -6,5 +6,6 @@ export interface Entry {
 }
 
 interface EntryLinks {
-  post: string;
+  github?: string;
+  post?: string;
 }

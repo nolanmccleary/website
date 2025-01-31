@@ -1,18 +1,24 @@
 [ 
   {
-    "title": "How To Firefighter",
+    "title": "Boeing SR-69 (AEOB)",
     "links": {
-      "post": "HowToFirefighter"
+      "post": "BoeingSR69"
     }
   },
   {
-    "title": "Counter to Gelsinger - Enter Tan Man",
+    "title": "Nvidia Easy-Bake (Advertisement)",
     "links": {
-      "post": "EnterTanMan"
+      "post": "EasyBake"
     }
   },
   {
-    "title": "Gelsinger's Next Move",
+    "title": "Probabilistic SLAM (Now with EKF)",
+    "links": {
+      "github": "https://github.com/nolanmccleary/SLAM/tree/main"
+    }
+  },
+  {
+    "title": "Gelsinger's Next Move (Draft)",
     "links": {
       "post": "Gelsinger"
     }

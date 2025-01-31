@@ -45,6 +45,20 @@ const Writing = ({ writing }: Props): JSX.Element => (
                         <span className="sr-only">Read</span>
                       </Link>
                     )}
+
+                    {entry.links.github && (
+                      <a
+                      aria-label={`${entry.title} GitHub`}
+                      href={entry.links.github}
+                      className={actionClasses}
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <span className="sr-only">GitHub</span>
+                      <FontAwesomeIcon icon={faPenNib} />
+                    </a>
+                    )}
+
                 </div>
               </li>
             </Animate>
