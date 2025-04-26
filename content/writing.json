@@ -1,5 +1,17 @@
 [ 
   {
+    "title": "IMPORTANT ANNOUNCEMENT",
+    "links": {
+      "post": "ThisYearsOurYear"
+    }
+  },
+  {
+    "title": "PyTorch Dope Fam (Deadass Edition)",
+    "links": {
+      "post": "Torch"
+    }
+  },
+  {
     "title": "RedStar LM - The People's Language Model!",
     "links": {
       "post": "CommieBot9000"
