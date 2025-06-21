@@ -1,5 +1,11 @@
 [ 
   {
+    "title": "Huawei Happy Tiger",
+    "links": {
+      "post": "HappyTiger"
+    }
+  },
+  {
     "title": "OpenAI Douche Necklace",
     "links": {
       "post": "DoucheNecklace"

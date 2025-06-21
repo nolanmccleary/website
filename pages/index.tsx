@@ -105,7 +105,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-    R5: Sjb xhwnuy ozxy iwtuuji: Kzhp ymj Ufsymjwx
+
     </Layout>
   );
 };
