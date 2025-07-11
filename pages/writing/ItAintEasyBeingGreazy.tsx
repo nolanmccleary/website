@@ -18,14 +18,14 @@ const Framework: NextPage = () => {
 
         It Ain't Easy Being Greazy (How to Toronto, Summer Edition)
         <br></br>
-        06/17/2025
+        07/6/2025
         <br></br><br></br>
         Sup Fam, Yung Crodigy back at it again. If the Leafs can make it to game seven, then this city deserves a round two. In the name of King Drizzy the First, Messiah of the 6ix and my personal Ubermensch, I present to you the second installment of the fan favourite How to Toronto series. 
 
         <br></br><br></br>
         Step 1: Conceal Your Presence
         <br></br>
-        As my favourite non-Torontonian coke dealer once said, ain't no love in the heart of the city. What this means is that danger lurks around every corner, and you dun never know when da opp mans finna pop out wit dat dimaz durag and da toolie for the purposes of engaging in premeditated, non-consensual yutenization (yute-wasting ting). You need to be proactive with your defenses, and the best way to do that is to make sure that you're never a target in the first place. 
+        As my favourite non-Torontonian coke dealer once said*, ain't no love in the heart of the city. What this means is that danger lurks around every corner, and you dun never know when da opp mans finna pop out wit dat dimaz durag and da toolie for the purposes of engaging in premeditated, non-consensual yutenization (yute-wasting ting). You need to be proactive with your defenses, and the best way to do that is to make sure that you're never a target in the first place. 
         <br></br><br></br>
         This is why it is imperative that your wardrobe includes significant amounts of camouflage attire. The obvious first-choice item here is the camouflage hat. Browning is the traditional choice, but it is recommended that you substitute for a more upscale variant as soon as possible so that you aren't misclassified as a prole when entering an establishment. In the wintertime, the camouflage hat can also be combined with the peacoat and supporting impractical jackets to create an avant-garde aesthetic like no other, especially when paired with a good set of loafers or pastel Jordans, but that's beside the point. For added stealth on the golf course, a good camouflage polo is also recommended.
         <br></br><br></br>
@@ -57,6 +57,7 @@ const Framework: NextPage = () => {
           </Animate>          
         </div>
       </div>
+      *Yes I know Bobby Bland said it not Jay-Z but he put the lyrics in the song so you could still argue that he made the statement
     </Layout>
   );
 };
