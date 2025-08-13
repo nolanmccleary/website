@@ -1,7 +1,13 @@
 [ 
   {
-  "title": "Gelsinger Reloaded",
+  "title": "Day In The Life of a GTA Hustlemonkey",
   "links": {
+      "post": "GTAHustlemonkey"
+    }
+  },
+  {
+    "title": "Gelsinger Reloaded",
+    "links": {
       "post": "GelsingerReloaded"
     }
   },
@@ -51,12 +57,6 @@
     "title": "YeeYee AI",
     "links": {
       "post": "YeeYeeAI"
-    }
-  },
-  {
-    "title": "Boeing SR-69 (AEOB)",
-    "links": {
-      "post": "BoeingSR69"
     }
   },
   {

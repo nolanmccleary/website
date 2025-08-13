@@ -1,5 +1,14 @@
 [
   {
+    "title": "Spectra",
+    "description": "Adversarial test harness for perceptual hash algorithms",
+    "icon": "\uD83C\uDF08",
+    "links": {
+      "github": "https://github.com/nolanmccleary/spectra"
+    }
+  },
+
+  {
     "title": "RC4 Decryption Engine",
     "description": "Parallelized RC4 encryption/decryption algorithm implementation on an Altera Cyclone V FPGA.",
     "icon": "\uD83D\uDD12",
