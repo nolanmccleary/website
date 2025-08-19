@@ -52,7 +52,7 @@ Flaming Dragon allow multiple noodles, some noodle not allowed.
 <br></br><br></br>
 CHILD SAFETY:
 <br></br>
-1.	Flaming Dragon has powerful child safety system. Will speed dial police if child try to eat Taiwanese-style noodle.
+1.	Flaming Dragon has powerful child safety system. Will gently re-educate child if try to eat Taiwanese-style noodle.
 <br></br>
 2.	Will also yell at child. 
 
