@@ -3,7 +3,7 @@
     "type": "career",
     "date": "2024-09-03",
     "title": "Internship at Synopsys - GTA (Not the fun one), Ontario",
-    "description": "Transceiver firmware is really cool. Lots of baremetal FW/ASIC interplay and compiler optimization. Writing code that directly supports some of the DSP functionality is also extremely rewarding."
+    "description": "I wrote firmware for a 224G Ethernet PHY. The firmware was a pain in the ass to test on silicon, so I wrote a framework to help me poke the test chip over a JTAG connection. The framework is now being given to customers. This means that every day, I wake up scared that I left a dirty joke somewhere in the codebase by accident. I consider this fear to be 90% irrational. During this time, I also learned that I really like writing (even if I'm not that good at it yet)."
   },
   {
     "type": "career",
