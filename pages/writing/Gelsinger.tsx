@@ -15,6 +15,11 @@ const Framework: NextPage = () => {
             className="max-w-xs mt-4 md:mt-8 mx-auto text-base text-left text-gray-400 dark:text-gray-300 sm:text-lg md:text-xl md:max-w-3xl"
             transition={{ delay: 0.5 }}
           >
+
+Gelsinger's Next Move
+<br></br>
+12/09/2024
+<br></br><br></br>
 Following his ouster as CEO of Intel, Patrick Gelsinger's future plans have repeatedly been called into question. Recently, it has come to light that Pat is now leading a new bleeding-edge chip startup, Genesis Semiconductor, located deep in the heart of his home state of Pennsylvania. The startup's flagship product is a new processor which aims to remove the bloat endemic to both complex instruction sets like x86 as well as so-called reduced instruction set architectures alike; in doing so, Pat also hopes that the company will restore American semiconductor manufacturing to its former glory. In order to accomplish this task, Pat has set out to find help in the most unlikely of places: Pennsylvania's Amish community. We now sit down with Pat and his associates to see how this story is unfolding so far.
 <br></br><br></br>
 Interviewer: “So Pat, as someone who's been in the industry since the age of eighteen, how did it feel when a board comprised of, among other things, BlackRock's co-founder, Boeing's former CFO & EVP of operations, two professors, and a doctor told you it was time to leave?”
